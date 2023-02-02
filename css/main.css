@@ -60,7 +60,7 @@ ul, li {
 .nav-menu ul {
   display: flex;
 }
-.nav-menu li + .nav-menu li {
+.nav-menu li:not(:last-child) {
   margin-right: 42px;
 }
 .nav-menu a.active, .nav-menu a:hover {

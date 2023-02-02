@@ -1,26 +1,24 @@
 @import "../base/colors";
+
 .nav-menu {
 
   ul {
     display: flex;
   }
 
-  li {
-
-    & + & {
-      margin-right: 42px;
-    }
-
-
+  li:not(:last-child) {
+    margin-right: 42px;
   }
+
   a {
 
     &.active, &:hover {
       color: $orange-color;
     }
+
     &.active {
       font-weight: 700;
-      color:$orange-color;
+      color: $orange-color;
     }
   }
 }
