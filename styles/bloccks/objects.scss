@@ -1,0 +1,35 @@
+@import "../base/colors";
+
+.objects {
+  padding-top: 45px;
+  padding-bottom: 80px;
+
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-text {
+    max-width: 543px;
+    padding-left: 181px;
+
+    p + p{
+      margin-top: 20px;
+    }
+  }
+
+  &-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+  }
+  &-title {
+    margin-bottom: 20px;
+  }
+
+  &-button {
+    margin-top: 40px;
+  }
+}

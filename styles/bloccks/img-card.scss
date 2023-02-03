@@ -1,0 +1,19 @@
+@import "../base/colors";
+
+.img-card {
+
+  & + & {
+    margin-left: 32px;
+  }
+  &-img {
+    border-radius: 20px 20px 0 20px;
+
+    .img-card-rounder & {
+      border-radius: 20px;
+    }
+  }
+
+
+
+
+}
