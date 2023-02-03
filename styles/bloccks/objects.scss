@@ -5,16 +5,23 @@
   padding-bottom: 80px;
 
   &-row {
+    overflow-x: hidden;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+
+    @media (max-width: 1495px) {
+      justify-content: flex-end;
+    }
   }
 
   &-text {
-    max-width: 543px;
+    flex-shrink: 0;
+    padding-right: 150px;
+    max-width: 693px;
     padding-left: 181px;
 
-    p + p{
+    p + p {
       margin-top: 20px;
     }
   }
@@ -25,6 +32,7 @@
     align-items: flex-start;
 
   }
+
   &-title {
     margin-bottom: 20px;
   }
