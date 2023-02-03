@@ -99,6 +99,12 @@ ul, li {
   letter-spacing: 0.8px;
   color: #323232;
 }
+.header-form {
+  margin-top: 42px;
+}
+.header-img img {
+  border-radius: 40px 40px 40px 0;
+}
 
 .form {
   background: #FFFFFF;
@@ -148,6 +154,16 @@ ul, li {
 }
 .button:hover {
   background-color: #FF6A00;
+}
+
+.clients {
+  padding-top: 100px;
+  padding-bottom: 91px;
+}
+.clients-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

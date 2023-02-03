@@ -28,4 +28,15 @@
     letter-spacing: 0.8px;
     color: $text-color;
   }
+
+  &-form {
+    margin-top: 42px;
+  }
+
+  &-img {
+
+    img {
+      border-radius: 40px 40px 40px 0;
+    }
+  }
 }

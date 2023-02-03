@@ -1,0 +1,12 @@
+@import "../base/colors";
+
+.clients {
+  padding-top: 100px;
+  padding-bottom: 91px;
+
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
