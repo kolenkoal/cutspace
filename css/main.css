@@ -325,4 +325,46 @@ img {
   column-gap: 20px;
 }
 
+.serve {
+  padding: 60px 0;
+  background-color: #F5F6FA;
+}
+.serve-heading {
+  margin-bottom: 45px;
+  text-align: center;
+}
+.serve-heading .title {
+  margin-bottom: 10px;
+}
+.serve-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  column-gap: 30px;
+}
+
+.card-customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 88px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 40px 52px -22px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+.card-customer:hover {
+  background-color: #F78434;
+  color: white;
+}
+.card-customer:hover .button {
+  background-color: #fff;
+  color: #F78434;
+}
+.card-customer-text {
+  margin-bottom: 25px;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+@import "../base/colors";
+
+.card-customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 88px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 40px 52px -22px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+
+  &:hover {
+    background-color: $orange-color;
+    color: white;
+
+    .button {
+      background-color: #fff;
+      color: $orange-color;
+    }
+  }
+
+
+  &-title {
+
+  }
+  &-text {
+    margin-bottom: 25px;
+  }
+}

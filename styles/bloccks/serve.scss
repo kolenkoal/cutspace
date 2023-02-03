@@ -1,0 +1,22 @@
+@import "../base/colors";
+
+.serve {
+  padding: 60px 0;
+  background-color: #F5F6FA;
+
+  &-heading {
+    margin-bottom: 45px;
+    text-align: center;
+
+    .title {
+      margin-bottom: 10px;
+    }
+  }
+
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    column-gap: 30px;
+  }
+}
