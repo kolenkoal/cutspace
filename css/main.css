@@ -172,6 +172,32 @@ img {
 .button:hover {
   background-color: #FF6A00;
 }
+.button-white {
+  position: relative;
+  background-color: #fff;
+  color: #323232;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+.button-white:hover {
+  background-color: #323232;
+  color: #fff;
+}
+.button-white-play {
+  padding-left: 50px;
+}
+.button-white-play::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  background-image: url("../../images/icons/play.svg");
+  background-size: initial;
+  background-repeat: no-repeat;
+}
 
 .clients {
   padding-top: 100px;
@@ -257,6 +283,46 @@ img {
 }
 .card-info-title {
   font-weight: 700;
+}
+
+.cta {
+  padding: 70px 0;
+}
+.cta-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  border-radius: 20px;
+  background-color: #58BEBF;
+  color: #fff;
+}
+.cta-text {
+  width: 555px;
+  box-sizing: border-box;
+  padding-right: 40px;
+  padding-left: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("../../images/cta/oval-bottom-left.svg") bottom left -186px no-repeat, url("../../images/cta/oval-top-right.svg") right top no-repeat;
+}
+.cta-text p {
+  width: 320px;
+}
+.cta-title {
+  margin-bottom: 15px;
+}
+.cta-img {
+  margin-top: 60px;
+  padding-top: 25px;
+  padding-right: 25px;
+  background: white;
+  border-radius: 0 20px 0 0;
+}
+.cta-buttons-row {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
