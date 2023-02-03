@@ -1,0 +1,31 @@
+@import "../base/colors";
+
+.header {
+
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-text {
+    max-width: 465px;
+
+    p {
+      line-height: 1.6875;
+      margin-bottom: 1em;
+    }
+  }
+
+  &-title {
+    position: relative;
+    z-index: 9;
+    margin-right: -160px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.46;
+    letter-spacing: 0.8px;
+    color: $text-color;
+  }
+}

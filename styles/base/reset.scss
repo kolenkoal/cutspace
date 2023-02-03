@@ -19,6 +19,12 @@ input, button {
   font-size: inherit;
   font-family: inherit;
 }
+
+button, input[type="submit"]{
+  cursor: pointer;
+  background: none;
+
+}
 input:focus, button:focus {
   outline: none;
 }
